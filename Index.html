@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELITE ANDHR | GUILD WARS</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ background:#080808;color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ background:#111;padding:18px 5%;
+ display:flex;justify-content:space-between;
+ align-items:center;flex-wrap:wrap;gap:15px;
+ border-bottom:2px solid #ff2929;
+ position:sticky;top:0;z-index:10;
+}
+.logo{color:#ff2929;font-size:23px;font-weight:900}
+nav a{
+ color:white;text-decoration:none;
+ margin:7px;font-size:13px;
+}
+nav a:hover{color:red}
+.hero{
+ min-height:440px;padding:100px 15px;
+ text-align:center;
+ background:linear-gradient(135deg,#300000,#080808,#240000);
+}
+.hero h1{
+ font-size:clamp(40px,8vw,70px);
+ color:#ff2929;text-shadow:0 0 20px red;
+}
+.hero p{color:#ddd;margin:20px 0;line-height:1.7}
+.btn{
+ display:inline-block;padding:14px 22px;
+ margin:8px;background:#ff2929;color:white;
+ border:0;border-radius:6px;text-decoration:none;
+ font-weight:bold;cursor:pointer;
+}
+.btn:hover{background:#bd0000}
+section{padding:60px 6%;text-align:center}
+.heading{color:#ff2929;font-size:30px;margin-bottom:15px}
+.sub{color:#aaa;margin-bottom:30px}
+.cards{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+ gap:18px;margin-top:25px;
+}
+.card{
+ background:#171717;border:1px solid #393939;
+ padding:25px 15px;border-radius:12px;
+ transition:.3s;
+}
+.card:hover{border-color:red;transform:translateY(-5px)}
+.member-number{
+ color:#ff3030;font-size:13px;font-weight:bold;
+}
+.member-name{
+ font-size:19px;font-weight:bold;
+ margin:14px 0;color:white;
+ overflow-wrap:anywhere;
+}
+.points{color:#ffc928;font-size:16px;font-weight:bold}
+.role{color:#aaa;font-size:12px;margin-top:8px}
+table{
+ width:100%;max-width:750px;margin:auto;
+ border-collapse:collapse;background:#171717;
+}
+td,th{padding:14px 8px;border-bottom:1px solid #444}
+th{background:#b90000;color:white}
+tr:hover{background:#292020}
+.social{
+ display:flex;justify-content:center;
+ flex-wrap:wrap;gap:12px;
+}
+footer{
+ background:#111;padding:30px 10px;
+ text-align:center;color:#aaa;
+ border-top:2px solid red;line-height:2;
+}
+footer strong{color:#ff2929}
+@media(max-width:600px){
+ header{justify-content:center;text-align:center}
+ nav a{font-size:12px;margin:5px}
+ section{padding:45px 4%}
+ .heading{font-size:25px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+ <div class="logo">🔥 ELITE ANDHR</div>
+ <nav>
+  <a href="#home">HOME</a>
+  <a href="#members">MEMBERS</a>
+  <a href="#ranking">RANKING</a>
+  <a href="#tournament">TOURNAMENT</a>
+  <a href="#contact">CONTACT</a>
+ </nav>
+</header>
+
+<div class="hero" id="home">
+ <h1>ELITE ANDHR</h1>
+ <h2>GUILD WARS</h2>
+ <p>
+  WELCOME TO ELITE ANDHR OFFICIAL GUILD!<br>
+  PLAY TOGETHER • FIGHT TOGETHER • WIN TOGETHER
+ </p>
+ <a href="#members" class="btn">🔥 OUR MEMBERS</a>
+ <a href="#ranking" class="btn">🏆 LEADERBOARD</a>
+</div>
+
+<section id="members">
+ <h2 class="heading">👑 ELITE ANDHR MEMBERS</h2>
+ <p class="sub">Our official guild member roster</p>
+
+ <div class="cards">
+
+  <div class="card">
+   <div class="member-number">MEMBER 01</div>
+   <div class="member-name">?BOOSGAMING</div>
+   <div class="points">766 WEEKLY POINTS</div>
+   <div class="role">🔥 GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 02</div>
+   <div class="member-name">chatugaming</div>
+   <div class="points">110 WEEKLY POINTS</div>
+   <div class="role">⚔️ GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 03</div>
+   <div class="member-name">•PraveenXIT•</div>
+   <div class="points">813 WEEKLY POINTS</div>
+   <div class="role">⚔️ GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 04</div>
+   <div class="member-name">HARSHA !</div>
+   <div class="points">0 WEEKLY POINTS</div>
+   <div class="role">🎮 GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 05</div>
+   <div class="member-name">Mani _Rox</div>
+   <div class="points">160 WEEKLY POINTS</div>
+   <div class="role">🎮 GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 06</div>
+   <div class="member-name">Alphamad!</div>
+   <div class="points">26 WEEKLY POINTS</div>
+   <div class="role">🔥 GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 07</div>
+   <div class="member-name">Rani548llll</div>
+   <div class="points">160 WEEKLY POINTS</div>
+   <div class="role">🎮 GUILD MEMBER</div>
+  </div>
+
+  <div class="card">
+   <div class="member-number">MEMBER 08</div>
+   <div class="member-name">Aditya_9792</div>
+   <div class="points">0 WEEKLY POINTS</div>
+   <div class="role">⚔️ GUILD MEMBER</div>
+  </div>
+
+ </div>
+ <p class="sub" style="margin-top:20px">
+  Weekly points shown from your screenshots.
+  Update them when new results are available.
+ </p>
+</section>
+
+<section id="ranking">
+ <h2 class="heading">🏆 WEEKLY LEADERBOARD</h2>
+ <p class="sub">ELITE ANDHR TOP PLAYERS</p>
+
+ <table>
+  <tr>
+   <th>RANK</th>
+   <th>PLAYER</th>
+   <th>POINTS</th>
+  </tr>
+  <tr><td>🥇 1</td><td>•PraveenXIT•</td><td>813</td></tr>
+  <tr><td>🥈 2</td><td>?BOOSGAMING</td><td>766</td></tr>
+  <tr><td>🥉 3</td><td>chatugaming</td><td>110</td></tr>
+  <tr><td>4</td><td>Mani _Rox</td><td>160</td></tr>
+  <tr><td>5</td><td>Rani548llll</td><td>160</td></tr>
+  <tr><td>6</td><td>Alphamad!</td><td>26</td></tr>
+  <tr><td>7</td><td>HARSHA !</td><td>0</td></tr>
+  <tr><td>8</td><td>Aditya_9792</td><td>0</td></tr>
+ </table>
+ <p class="sub" style="margin-top:15px">
+  Rankings are based on the displayed weekly points.
+ </p>
+</section>
+
+<section id="tournament">
+ <h2 class="heading">🔥 GUILD TOURNAMENT</h2>
+ <div class="cards">
+  <div class="card">
+   <h3>🎯 SOLO MATCH</h3>
+   <p>Individual battlefield challenge.</p>
+  </div>
+  <div class="card">
+   <h3>⚔️ DUO MATCH</h3>
+   <p>Fight with your partner.</p>
+  </div>
+  <div class="card">
+   <h3>🏆 SQUAD MATCH</h3>
+   <p>Team up and fight for victory.</p>
+  </div>
+ </div>
+</section>
+
+<section id="contact">
+ <h2 class="heading">📱 FOLLOW ELITE ANDHR</h2>
+ <p class="sub">Join our community and watch our gaming videos!</p>
+
+ <div class="social">
+  <!-- Replace the links below with your real accounts -->
+  <a class="btn" href="https://wa.me/91YOURNUMBER"
+     target="_blank">🟢 WHATSAPP</a>
+
+  <a class="btn" href="https://youtube.com/@Praveen_gaming_Yt_93"
+     target="_blank">▶️ YOUTUBE</a>
+ </div>
+</section>
+
+<footer>
+ <h2><strong>🔥 ELITE ANDHR</strong></h2>
+ <p>GUILD WARS OFFICIAL WEBSITE</p>
+ <p>PLAY FAIR • FIGHT HARD • WIN TOGETHER</p>
+ <p>© 2026 ELITE ANDHR</p>
+ <p style="font-size:11px">
+  Fan-made gaming community. Not affiliated with Garena.
+ </p>
+</footer>
+
+</body>
+</html>
